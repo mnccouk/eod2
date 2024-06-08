@@ -192,6 +192,8 @@ class Plotter:
 
         if args.rs or args.m_rs:
             idx_path = self.daily_dir / f"{self.config.PLOT_RS_INDEX}.csv"
+            if args.rs_sym:
+                idx_path = self.daily_dir / f"{args.rs_sym[0]}.csv"
 
             if not idx_path.is_file():
                 exit(f"Index file not found: {idx_path}")

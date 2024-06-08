@@ -66,6 +66,13 @@ parser.add_argument(
 )
 
 parser.add_argument(
+    "--rs_sym",
+    nargs="+",
+    metavar="RS_SYM",
+    help="Relative strength index symbol.",
+)
+
+parser.add_argument(
     "--m-rs", action="store_true", help="Mansfield Relative strength indicator."
 )
 

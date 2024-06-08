@@ -96,7 +96,7 @@ class Config:
     PLOT_WEEKS = 140
     PLOT_M_RS_LEN_D = 60
     PLOT_M_RS_LEN_W = 52
-    PLOT_RS_INDEX = "nifty 50"
+    PLOT_RS_INDEX = "FTAI" #"nifty 50"
     MAGNET_MODE = True
 
     PRESET = {}
